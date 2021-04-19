@@ -11,9 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-The latest version of BaleMediaPicker require:
+The latest version of MR.TVOSToast require:
     Swift 4+
-    iOS 9+
+    iOS 11+
 
 ## Installation
 
