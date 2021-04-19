@@ -7,41 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E95D901262DAD2B0041058D /* MR_TVOSToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E95D8FF262DAD2B0041058D /* MR_TVOSToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E95D914262DAD820041058D /* tvosToastPlayPauseWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D909262DAD820041058D /* tvosToastPlayPauseWhite.png */; };
-		2E95D915262DAD820041058D /* tvosToastMenuWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D90A262DAD820041058D /* tvosToastMenuWhite.png */; };
-		2E95D916262DAD820041058D /* tvosToastVolumeBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D90B262DAD820041058D /* tvosToastVolumeBlack.png */; };
-		2E95D917262DAD820041058D /* tvosToastScreenBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D90C262DAD820041058D /* tvosToastScreenBlack.png */; };
-		2E95D918262DAD820041058D /* tvosToastSiriWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D90D262DAD820041058D /* tvosToastSiriWhite.png */; };
-		2E95D919262DAD820041058D /* tvosToastPlayPauseBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D90E262DAD820041058D /* tvosToastPlayPauseBlack.png */; };
-		2E95D91A262DAD820041058D /* tvosToastMenuBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D90F262DAD820041058D /* tvosToastMenuBlack.png */; };
-		2E95D91B262DAD820041058D /* tvosToastVolumeWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D910262DAD820041058D /* tvosToastVolumeWhite.png */; };
-		2E95D91C262DAD820041058D /* tvosToastSiriBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D911262DAD820041058D /* tvosToastSiriBlack.png */; };
-		2E95D91D262DAD820041058D /* tvosToastScreenWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D912262DAD820041058D /* tvosToastScreenWhite.png */; };
-		2E95D91E262DAD820041058D /* TVOSToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95D913262DAD820041058D /* TVOSToast.swift */; };
-		2E95D923262DB2F90041058D /* MR.TVOSToast.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D922262DB2F90041058D /* MR.TVOSToast.podspec */; };
+		2E95D934262DBC6F0041058D /* MR_TVOSToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E95D932262DBC6F0041058D /* MR_TVOSToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E95D947262DBCBD0041058D /* tvosToastPlayPauseWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D93C262DBCBD0041058D /* tvosToastPlayPauseWhite.png */; };
+		2E95D948262DBCBD0041058D /* tvosToastMenuWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D93D262DBCBD0041058D /* tvosToastMenuWhite.png */; };
+		2E95D949262DBCBD0041058D /* tvosToastVolumeBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D93E262DBCBD0041058D /* tvosToastVolumeBlack.png */; };
+		2E95D94A262DBCBD0041058D /* tvosToastScreenBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D93F262DBCBD0041058D /* tvosToastScreenBlack.png */; };
+		2E95D94B262DBCBD0041058D /* tvosToastSiriWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D940262DBCBD0041058D /* tvosToastSiriWhite.png */; };
+		2E95D94C262DBCBD0041058D /* tvosToastPlayPauseBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D941262DBCBD0041058D /* tvosToastPlayPauseBlack.png */; };
+		2E95D94D262DBCBD0041058D /* tvosToastMenuBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D942262DBCBD0041058D /* tvosToastMenuBlack.png */; };
+		2E95D94E262DBCBD0041058D /* tvosToastVolumeWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D943262DBCBD0041058D /* tvosToastVolumeWhite.png */; };
+		2E95D94F262DBCBD0041058D /* tvosToastSiriBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D944262DBCBD0041058D /* tvosToastSiriBlack.png */; };
+		2E95D950262DBCBD0041058D /* tvosToastScreenWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D945262DBCBD0041058D /* tvosToastScreenWhite.png */; };
+		2E95D951262DBCBD0041058D /* TVOSToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95D946262DBCBD0041058D /* TVOSToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E95D8FC262DAD2B0041058D /* MR_TVOSToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MR_TVOSToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E95D8FF262DAD2B0041058D /* MR_TVOSToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MR_TVOSToast.h; sourceTree = "<group>"; };
-		2E95D900262DAD2B0041058D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E95D909262DAD820041058D /* tvosToastPlayPauseWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastPlayPauseWhite.png; sourceTree = "<group>"; };
-		2E95D90A262DAD820041058D /* tvosToastMenuWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastMenuWhite.png; sourceTree = "<group>"; };
-		2E95D90B262DAD820041058D /* tvosToastVolumeBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastVolumeBlack.png; sourceTree = "<group>"; };
-		2E95D90C262DAD820041058D /* tvosToastScreenBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastScreenBlack.png; sourceTree = "<group>"; };
-		2E95D90D262DAD820041058D /* tvosToastSiriWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastSiriWhite.png; sourceTree = "<group>"; };
-		2E95D90E262DAD820041058D /* tvosToastPlayPauseBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastPlayPauseBlack.png; sourceTree = "<group>"; };
-		2E95D90F262DAD820041058D /* tvosToastMenuBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastMenuBlack.png; sourceTree = "<group>"; };
-		2E95D910262DAD820041058D /* tvosToastVolumeWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastVolumeWhite.png; sourceTree = "<group>"; };
-		2E95D911262DAD820041058D /* tvosToastSiriBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastSiriBlack.png; sourceTree = "<group>"; };
-		2E95D912262DAD820041058D /* tvosToastScreenWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastScreenWhite.png; sourceTree = "<group>"; };
-		2E95D913262DAD820041058D /* TVOSToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVOSToast.swift; sourceTree = "<group>"; };
-		2E95D922262DB2F90041058D /* MR.TVOSToast.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MR.TVOSToast.podspec; sourceTree = "<group>"; };
+		2E95D92F262DBC6F0041058D /* MR_TVOSToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MR_TVOSToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E95D932262DBC6F0041058D /* MR_TVOSToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MR_TVOSToast.h; sourceTree = "<group>"; };
+		2E95D933262DBC6F0041058D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E95D93C262DBCBD0041058D /* tvosToastPlayPauseWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastPlayPauseWhite.png; sourceTree = "<group>"; };
+		2E95D93D262DBCBD0041058D /* tvosToastMenuWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastMenuWhite.png; sourceTree = "<group>"; };
+		2E95D93E262DBCBD0041058D /* tvosToastVolumeBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastVolumeBlack.png; sourceTree = "<group>"; };
+		2E95D93F262DBCBD0041058D /* tvosToastScreenBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastScreenBlack.png; sourceTree = "<group>"; };
+		2E95D940262DBCBD0041058D /* tvosToastSiriWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastSiriWhite.png; sourceTree = "<group>"; };
+		2E95D941262DBCBD0041058D /* tvosToastPlayPauseBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastPlayPauseBlack.png; sourceTree = "<group>"; };
+		2E95D942262DBCBD0041058D /* tvosToastMenuBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastMenuBlack.png; sourceTree = "<group>"; };
+		2E95D943262DBCBD0041058D /* tvosToastVolumeWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastVolumeWhite.png; sourceTree = "<group>"; };
+		2E95D944262DBCBD0041058D /* tvosToastSiriBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastSiriBlack.png; sourceTree = "<group>"; };
+		2E95D945262DBCBD0041058D /* tvosToastScreenWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastScreenWhite.png; sourceTree = "<group>"; };
+		2E95D946262DBCBD0041058D /* TVOSToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVOSToast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2E95D8F9262DAD2B0041058D /* Frameworks */ = {
+		2E95D92C262DBC6F0041058D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,47 +49,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E95D8F2262DAD2B0041058D = {
+		2E95D925262DBC6F0041058D = {
 			isa = PBXGroup;
 			children = (
-				2E95D922262DB2F90041058D /* MR.TVOSToast.podspec */,
-				2E95D8FE262DAD2B0041058D /* MR.TVOSToast */,
-				2E95D8FD262DAD2B0041058D /* Products */,
+				2E95D931262DBC6F0041058D /* MR.TVOSToast */,
+				2E95D930262DBC6F0041058D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2E95D8FD262DAD2B0041058D /* Products */ = {
+		2E95D930262DBC6F0041058D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E95D8FC262DAD2B0041058D /* MR_TVOSToast.framework */,
+				2E95D92F262DBC6F0041058D /* MR_TVOSToast.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E95D8FE262DAD2B0041058D /* MR.TVOSToast */ = {
+		2E95D931262DBC6F0041058D /* MR.TVOSToast */ = {
 			isa = PBXGroup;
 			children = (
-				2E95D908262DAD820041058D /* Resources */,
-				2E95D913262DAD820041058D /* TVOSToast.swift */,
-				2E95D8FF262DAD2B0041058D /* MR_TVOSToast.h */,
-				2E95D900262DAD2B0041058D /* Info.plist */,
+				2E95D93B262DBCBD0041058D /* Resources */,
+				2E95D946262DBCBD0041058D /* TVOSToast.swift */,
+				2E95D932262DBC6F0041058D /* MR_TVOSToast.h */,
+				2E95D933262DBC6F0041058D /* Info.plist */,
 			);
 			path = MR.TVOSToast;
 			sourceTree = "<group>";
 		};
-		2E95D908262DAD820041058D /* Resources */ = {
+		2E95D93B262DBCBD0041058D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2E95D909262DAD820041058D /* tvosToastPlayPauseWhite.png */,
-				2E95D90A262DAD820041058D /* tvosToastMenuWhite.png */,
-				2E95D90B262DAD820041058D /* tvosToastVolumeBlack.png */,
-				2E95D90C262DAD820041058D /* tvosToastScreenBlack.png */,
-				2E95D90D262DAD820041058D /* tvosToastSiriWhite.png */,
-				2E95D90E262DAD820041058D /* tvosToastPlayPauseBlack.png */,
-				2E95D90F262DAD820041058D /* tvosToastMenuBlack.png */,
-				2E95D910262DAD820041058D /* tvosToastVolumeWhite.png */,
-				2E95D911262DAD820041058D /* tvosToastSiriBlack.png */,
-				2E95D912262DAD820041058D /* tvosToastScreenWhite.png */,
+				2E95D93C262DBCBD0041058D /* tvosToastPlayPauseWhite.png */,
+				2E95D93D262DBCBD0041058D /* tvosToastMenuWhite.png */,
+				2E95D93E262DBCBD0041058D /* tvosToastVolumeBlack.png */,
+				2E95D93F262DBCBD0041058D /* tvosToastScreenBlack.png */,
+				2E95D940262DBCBD0041058D /* tvosToastSiriWhite.png */,
+				2E95D941262DBCBD0041058D /* tvosToastPlayPauseBlack.png */,
+				2E95D942262DBCBD0041058D /* tvosToastMenuBlack.png */,
+				2E95D943262DBCBD0041058D /* tvosToastVolumeWhite.png */,
+				2E95D944262DBCBD0041058D /* tvosToastSiriBlack.png */,
+				2E95D945262DBCBD0041058D /* tvosToastScreenWhite.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -99,25 +96,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2E95D8F7262DAD2B0041058D /* Headers */ = {
+		2E95D92A262DBC6F0041058D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E95D901262DAD2B0041058D /* MR_TVOSToast.h in Headers */,
+				2E95D934262DBC6F0041058D /* MR_TVOSToast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2E95D8FB262DAD2B0041058D /* MR.TVOSToast */ = {
+		2E95D92E262DBC6F0041058D /* MR.TVOSToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E95D904262DAD2B0041058D /* Build configuration list for PBXNativeTarget "MR.TVOSToast" */;
+			buildConfigurationList = 2E95D937262DBC6F0041058D /* Build configuration list for PBXNativeTarget "MR.TVOSToast" */;
 			buildPhases = (
-				2E95D8F7262DAD2B0041058D /* Headers */,
-				2E95D8F8262DAD2B0041058D /* Sources */,
-				2E95D8F9262DAD2B0041058D /* Frameworks */,
-				2E95D8FA262DAD2B0041058D /* Resources */,
+				2E95D92A262DBC6F0041058D /* Headers */,
+				2E95D92B262DBC6F0041058D /* Sources */,
+				2E95D92C262DBC6F0041058D /* Frameworks */,
+				2E95D92D262DBC6F0041058D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -125,24 +122,24 @@
 			);
 			name = MR.TVOSToast;
 			productName = MR.TVOSToast;
-			productReference = 2E95D8FC262DAD2B0041058D /* MR_TVOSToast.framework */;
+			productReference = 2E95D92F262DBC6F0041058D /* MR_TVOSToast.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2E95D8F3262DAD2B0041058D /* Project object */ = {
+		2E95D926262DBC6F0041058D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					2E95D8FB262DAD2B0041058D = {
+					2E95D92E262DBC6F0041058D = {
 						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
 					};
 				};
 			};
-			buildConfigurationList = 2E95D8F6262DAD2B0041058D /* Build configuration list for PBXProject "MR.TVOSToast" */;
+			buildConfigurationList = 2E95D929262DBC6F0041058D /* Build configuration list for PBXProject "MR.TVOSToast" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,50 +147,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 2E95D8F2262DAD2B0041058D;
-			productRefGroup = 2E95D8FD262DAD2B0041058D /* Products */;
+			mainGroup = 2E95D925262DBC6F0041058D;
+			productRefGroup = 2E95D930262DBC6F0041058D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E95D8FB262DAD2B0041058D /* MR.TVOSToast */,
+				2E95D92E262DBC6F0041058D /* MR.TVOSToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2E95D8FA262DAD2B0041058D /* Resources */ = {
+		2E95D92D262DBC6F0041058D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E95D91A262DAD820041058D /* tvosToastMenuBlack.png in Resources */,
-				2E95D919262DAD820041058D /* tvosToastPlayPauseBlack.png in Resources */,
-				2E95D915262DAD820041058D /* tvosToastMenuWhite.png in Resources */,
-				2E95D91B262DAD820041058D /* tvosToastVolumeWhite.png in Resources */,
-				2E95D923262DB2F90041058D /* MR.TVOSToast.podspec in Resources */,
-				2E95D916262DAD820041058D /* tvosToastVolumeBlack.png in Resources */,
-				2E95D91D262DAD820041058D /* tvosToastScreenWhite.png in Resources */,
-				2E95D918262DAD820041058D /* tvosToastSiriWhite.png in Resources */,
-				2E95D914262DAD820041058D /* tvosToastPlayPauseWhite.png in Resources */,
-				2E95D917262DAD820041058D /* tvosToastScreenBlack.png in Resources */,
-				2E95D91C262DAD820041058D /* tvosToastSiriBlack.png in Resources */,
+				2E95D94D262DBCBD0041058D /* tvosToastMenuBlack.png in Resources */,
+				2E95D94C262DBCBD0041058D /* tvosToastPlayPauseBlack.png in Resources */,
+				2E95D948262DBCBD0041058D /* tvosToastMenuWhite.png in Resources */,
+				2E95D94E262DBCBD0041058D /* tvosToastVolumeWhite.png in Resources */,
+				2E95D949262DBCBD0041058D /* tvosToastVolumeBlack.png in Resources */,
+				2E95D950262DBCBD0041058D /* tvosToastScreenWhite.png in Resources */,
+				2E95D94B262DBCBD0041058D /* tvosToastSiriWhite.png in Resources */,
+				2E95D947262DBCBD0041058D /* tvosToastPlayPauseWhite.png in Resources */,
+				2E95D94A262DBCBD0041058D /* tvosToastScreenBlack.png in Resources */,
+				2E95D94F262DBCBD0041058D /* tvosToastSiriBlack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2E95D8F8262DAD2B0041058D /* Sources */ = {
+		2E95D92B262DBC6F0041058D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E95D91E262DAD820041058D /* TVOSToast.swift in Sources */,
+				2E95D951262DBCBD0041058D /* TVOSToast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2E95D902262DAD2B0041058D /* Debug */ = {
+		2E95D935262DBC6F0041058D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,19 +241,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2E95D903262DAD2B0041058D /* Release */ = {
+		2E95D936262DBC6F0041058D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -303,19 +299,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = appletvos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		2E95D905262DAD2B0041058D /* Debug */ = {
+		2E95D938262DBC6F0041058D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -336,11 +332,12 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
-		2E95D906262DAD2B0041058D /* Release */ = {
+		2E95D939262DBC6F0041058D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -360,32 +357,33 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E95D8F6262DAD2B0041058D /* Build configuration list for PBXProject "MR.TVOSToast" */ = {
+		2E95D929262DBC6F0041058D /* Build configuration list for PBXProject "MR.TVOSToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E95D902262DAD2B0041058D /* Debug */,
-				2E95D903262DAD2B0041058D /* Release */,
+				2E95D935262DBC6F0041058D /* Debug */,
+				2E95D936262DBC6F0041058D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E95D904262DAD2B0041058D /* Build configuration list for PBXNativeTarget "MR.TVOSToast" */ = {
+		2E95D937262DBC6F0041058D /* Build configuration list for PBXNativeTarget "MR.TVOSToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2E95D905262DAD2B0041058D /* Debug */,
-				2E95D906262DAD2B0041058D /* Release */,
+				2E95D938262DBC6F0041058D /* Debug */,
+				2E95D939262DBC6F0041058D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2E95D8F3262DAD2B0041058D /* Project object */;
+	rootObject = 2E95D926262DBC6F0041058D /* Project object */;
 }
