@@ -21,13 +21,13 @@ MR.TVOSToast is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MR_TVOSToast'
+pod 'MR.TVOSToast'
 ```
 
 ## How to use
 
 ```swift
-import MR.TVOSToast
+import MR_TVOSToast
 
 https://github.com/sahin/TVOSToast
 ```
