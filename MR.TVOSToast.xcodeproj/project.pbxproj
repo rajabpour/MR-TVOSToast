@@ -19,6 +19,7 @@
 		2E95D91C262DAD820041058D /* tvosToastSiriBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D911262DAD820041058D /* tvosToastSiriBlack.png */; };
 		2E95D91D262DAD820041058D /* tvosToastScreenWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D912262DAD820041058D /* tvosToastScreenWhite.png */; };
 		2E95D91E262DAD820041058D /* TVOSToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E95D913262DAD820041058D /* TVOSToast.swift */; };
+		2E95D923262DB2F90041058D /* MR.TVOSToast.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2E95D922262DB2F90041058D /* MR.TVOSToast.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		2E95D911262DAD820041058D /* tvosToastSiriBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastSiriBlack.png; sourceTree = "<group>"; };
 		2E95D912262DAD820041058D /* tvosToastScreenWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tvosToastScreenWhite.png; sourceTree = "<group>"; };
 		2E95D913262DAD820041058D /* TVOSToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVOSToast.swift; sourceTree = "<group>"; };
+		2E95D922262DB2F90041058D /* MR.TVOSToast.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MR.TVOSToast.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		2E95D8F2262DAD2B0041058D = {
 			isa = PBXGroup;
 			children = (
+				2E95D922262DB2F90041058D /* MR.TVOSToast.podspec */,
 				2E95D8FE262DAD2B0041058D /* MR.TVOSToast */,
 				2E95D8FD262DAD2B0041058D /* Products */,
 			);
@@ -166,6 +169,7 @@
 				2E95D919262DAD820041058D /* tvosToastPlayPauseBlack.png in Resources */,
 				2E95D915262DAD820041058D /* tvosToastMenuWhite.png in Resources */,
 				2E95D91B262DAD820041058D /* tvosToastVolumeWhite.png in Resources */,
+				2E95D923262DB2F90041058D /* MR.TVOSToast.podspec in Resources */,
 				2E95D916262DAD820041058D /* tvosToastVolumeBlack.png in Resources */,
 				2E95D91D262DAD820041058D /* tvosToastScreenWhite.png in Resources */,
 				2E95D918262DAD820041058D /* tvosToastSiriWhite.png in Resources */,
@@ -241,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -299,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
