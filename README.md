@@ -21,7 +21,7 @@ MR.TVOSToast is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MR.TVOSToast'
+pod 'MR_TVOSToast'
 ```
 
 ## How to use
